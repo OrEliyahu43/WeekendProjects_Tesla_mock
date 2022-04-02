@@ -47,7 +47,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header{
+.main-logo{
+    width: 120px;
+}
+.section-1{
     background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/d0cecbbf-1a20-4b48-b136-fb096af19515/bvlatuR/std/2880x1800/model-3-main-hero-a-desktop') center center/cover;
     height: 100vh;
 
@@ -58,17 +61,27 @@
     font-size: 40px;
 }
 
-
+h1{
+    font-weight: 500;
+    color:#ffffff;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
 .navbar-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height:5vh;
+    align-items: center;
 
 }
 
 .center-nav{
     display: flex;
     list-style: none;
+    justify-content:space-between
     
 }
 
@@ -78,15 +91,82 @@
     
 }
 .center-nav li a{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
     display: inline-block;
-    padding: 4px 8px;
-    color: rgb(255, 255, 255);
+    padding: 4px 12px;
+    color: #ffffff;
     text-decoration: none;
+}
+.center-nav li a:hover{
+    background-color: gray;
+    border-radius: 15%;
 
-    
+}
+.right-nav li a:hover{
+    background-color: gray;
+    border-radius: 15%;
+
 }
 .right-nav li a{
-    color:#fff;
-    padding: 4px 8px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 4px 12px;
+    color: #ffffff;
     text-decoration: none;
+}
+.model{
+
+    margin-top: 100px;
+
+}
+    .empty-div{
+    height: 50%;
+    width: 100%;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.line-1 h1{
+    display: inline-block;
+}
+.speedometer{
+    height: 100px;
+    width: 100px;
+}
+.box{
+    margin: 5px 50px;
+}
+.box-1,.box-2,.box-3,.box-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.line-2{
+    text-align: center;
+}
+.data span{
+    text-align: center;
+    color:#ffffff
+}
+
+.order-now{
+    color: white;
+    border:solid white 2px;
+    border-radius: 30%;
+    text-decoration: none;
+    padding:4px 24px;
+    
+    margin-left: 50px;
+}
+.order-now:hover{
+    color:black;
+    background-color:white;
 }
