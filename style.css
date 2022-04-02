@@ -159,8 +159,10 @@ h1{
 
 .order-now{
     color: white;
-    border:solid white 2px;
-    border-radius: 30%;
+    border: white 2px solid;
+    border-style:ridge;
+    
+    border-radius: 20%;
     text-decoration: none;
     padding:4px 24px;
     
@@ -169,4 +171,56 @@ h1{
 .order-now:hover{
     color:black;
     background-color:white;
+}
+.order-now2:hover{
+    color:white;
+    background-color:black;
+}
+.saftey{
+
+
+}
+.saftey-img{
+
+    height: 940px;
+    width: 1504px;
+}
+.saftey h1{
+    text-align: left;
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.saftey p{
+    font-size: 14px;
+}
+.__section-2_child{
+    display: flex;
+    margin-top: 40px;
+}
+.empty-div-2{
+    height: 65%;
+}
+
+.btn_learn_more{
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 3px solid black;
+    border-radius: 100%;
+
+}
+
+.order-now2{
+    color: black;
+    border: black 2px solid;
+    border-style:ridge;
+    
+    border-radius: 20%;
+    text-decoration: none;
+    padding:4px 24px;
+    
+    margin-left: 50px;
+
 }
