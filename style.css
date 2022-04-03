@@ -47,6 +47,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media (max-width: 400px) {
+    .center-nav {
+      display: none;
+    }
+    
+    .data{
+        display: none;
+    }
+
+    .right-nav{
+        display: none;
+    }
+   
+    }
+  
 .main-logo{
     width: 120px;
 }
@@ -223,4 +238,47 @@ h1{
     
     margin-left: 50px;
 
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-section{
+    background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/3489a82e-b19c-457a-86a4-7ea9ac91aa1c/bvlatuR/std/1920x1080/lhd-performance-hero-desktop') center center/cover;
+    height: 80vh;
+    width: 100%;
+}
+.performans-info{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vh;
+    display: flex;
+}
+._performans-info_child span{
+    font-size: 17px;
+}
+._performans-info_child h1{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.performans-info p{
+    width:668px;
+    height: 80px;
+    margin-left: 50px;
+}
+.info-titles{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end
+
+}
+.info-titles p{
+    font-size: 12px;
+    color: white;
+    width:300px;
 }
